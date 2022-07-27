@@ -614,7 +614,7 @@ ul {
   -webkit-text-fill-color: var(--main-color);
   -webkit-autofill: 0 0 0px 1000px #000 inset;
 
-  transition: background-color 250s ease-in-out 0s;
+  transition: background-color 250s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-subscription-input:hover,
